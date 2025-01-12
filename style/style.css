@@ -130,7 +130,6 @@ margin-bottom: 24px;}
    .gg{list-style: none; display: flex;
     gap: 12px; margin: 0px; margin-bottom: 12px;
 }
-    }
     .card-description{
         font-size: 16px; color: #0e0e0e9f;
     margin-bottom: 32px;}
@@ -149,7 +148,7 @@ margin-bottom: 24px;}
 
 .dcontainer{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-around;
     flex-direction: row;
     /* max-width: 240px; */
     color: #0e0e0ec8; gap: 24px;
@@ -206,3 +205,39 @@ input[type="text"]{
     margin-top: 32px;
     border-radius: 6px;
 }
+/* table style */
+.ttd{ border: 1px solid black;padding: 34px 21px;}
+.table{
+    margin: 80px 160px 80px 160px; 
+}
+.ttd{
+    border-collapse: collapse;
+}
+.ttt{
+    font-size: 40px;
+    font-weight: bold;
+}
+.ttv{
+    height: 90px;
+    width: 1000px;
+}
+
+.ttb{
+    height: 40px;
+    width: 148px;
+    padding: 10px 14px;
+    
+}
+/* qt */
+.qv{ 
+  
+}
+.qt{
+    margin: 80px 160px 80px 160px; 
+    background-color: #c1c6ce; height: 140
+    width: 1240px; padding: 24px;background-image: url(./assets/quote-bg.png);  background-repeat: no-repeat;
+}
+
+
+
+
